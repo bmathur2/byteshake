@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="ic_dropdown_default" transform="translate(-1572 -3430)">
+    <circle id="ic_dropdown_default-2" data-name="ic_dropdown_default" cx="25" cy="25" r="25" transform="translate(1572 3430)" fill="#eee"/>
+    <g id="down-arrow" transform="translate(1461 3425)">
+      <g id="Group_1033" data-name="Group 1033" transform="translate(129 19)">
+        <path id="Path_1911" data-name="Path 1911" d="M145.667,23.775a1.129,1.129,0,0,0-1.6,0l-3.942,3.961V10.129a1.129,1.129,0,1,0-2.258,0v17.61l-3.942-3.961a1.129,1.129,0,0,0-1.6,1.593l5.871,5.9h0a1.13,1.13,0,0,0,1.6,0h0l5.871-5.9A1.129,1.129,0,0,0,145.667,23.775Z" transform="translate(-132 -9)" fill="#a8a8a8"/>
+      </g>
+    </g>
+  </g>
+</svg>

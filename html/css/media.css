@@ -1,0 +1,32 @@
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+.navbar-nav .nav-item .nav-link { font-size: 100%; }
+
+}
+ @media only screen and (max-width: 1400px) {
+
+
+}
+
+/* ----------- Retina Screens ----------- */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+.container { max-width: 1375px; }
+.navbar-nav .nav-item .nav-link { font-size: 100%; }
+
+}
+ @media only screen and (min-width:1024px) and (max-width:1259px) {
+.navbar-nav .nav-item .nav-link { padding: 6px 13px 0px 13px; font-size: 86%; }
+
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+.container { width: 100%; margin: 0 auto; display: block; }
+
+}
+ @media only screen and (min-width:300px) and (max-width:767px) {
+.container { width: 100%; margin: 0 auto; display: block; }
+
+.navbar-dark .navbar-toggler { color: rgb(88 99 248); border-color: rgb(88 99 248); border-radius: 0px; background: #0000; margin-right: 12px; }
+.navbar-nav .nav-item .nav-link { padding: 10px 20px !important; font-size: 16px; line-height: normal; }
+
+}
