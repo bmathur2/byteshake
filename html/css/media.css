@@ -57,7 +57,7 @@
 padding: 0.3rem .5rem; border-radius: 3px; font-size: 14px; line-height: 18px; }
 .hero-banner { padding: 20px 0; }
 .banner-info { width: 548px; margin: 0 auto; display: block; }
-.banner-details { padding: 20px; text-align: center; }
+.banner-details { padding: 20px; text-align: center;    width: 100%;}
 .btn-common { margin: 0px auto; }
 .our-partners ul { margin: 0px; padding: 0px; list-style-type: none; display: flex; align-items: center; flex-wrap: wrap; justify-content: center; }
 .lets-build-bg { padding: 30px 0px; }
@@ -186,10 +186,21 @@ padding: 0.3rem .5rem; border-radius: 3px; font-size: 14px; line-height: 18px; }
 .banner-details h2 { font-size: 34px; margin-top: 0px; line-height: 44px; }
 .banner-details h2 strong { font-size: 34px; }
 .banner-details p { font-size: 14px; line-height: 23px; }
-.banner-animation { display: block; width: 350px; height: 350px; }
-.banner-info img { width: 100%; height: auto; }
+
+.banner-info img { width: 100%;
+    height: 100%;}
+
+.banner-animation {
+    width: 350px;
+    height: 350px;
+}
 .btn-common { margin: 20px auto; padding: 0px; position: relative; max-width: 100%; }
-.banner-info { margin-left: 0px; overflow: hidden; }
+.banner-info {     overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 350px;
+}
 .footer-section { padding: 30px 0px; }
 .footer-section .container { width: 90%; }
 .footer-links { padding: 15px 0; display: none; }
